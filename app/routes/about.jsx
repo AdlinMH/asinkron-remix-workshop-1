@@ -1,12 +1,4 @@
-// export const meta = () => {
-//   return [{ title: "About Page" }];
-// };
-
-// export default function Index() {
-//  return <div>
-//   <h1>This Is About</h1>
-//  </div>;
-// }
+import { Link } from '@remix-run/react'
 
 export const meta = () => {
   return [{ title: "About Page" }]
@@ -15,7 +7,8 @@ export const meta = () => {
 export default function Index() {
   return (
     <div>
-      <h1>This is about</h1>
+      <h1>This is About</h1>
+      <Link to="/about/team">Go To Team</Link>
     </div>
   )
 }
