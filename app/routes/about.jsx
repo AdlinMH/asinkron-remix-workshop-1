@@ -9,6 +9,7 @@ export default function Index() {
     <div>
       <h1>This is About</h1>
       <Link to="/about/team">Go To Team</Link>
+      <Link to="/contact-us">Go To Contact Us</Link>
     </div>
   )
 }
